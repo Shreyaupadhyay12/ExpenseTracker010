@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export const connectDB = async () => {
   try {
-    const db = "mongodb://localhost:27017";
+    const db = "mongodb+srv://priyanshugiri63:KkBjEUe5njFZM2k4@cluster0.m1mclcw.mongodb.net/";
 
     if (!db) {
       throw new Error("MONGO_URL is not defined in environment variables");
